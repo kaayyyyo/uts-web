@@ -1,0 +1,95 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Card Style for Result */
+.result-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.result-card img {
+    max-width: 30px; /* Ukuran foto menjadi 30px */
+    max-height: 30px; /* Ukuran foto menjadi 30px */
+    width: auto; /* Menjaga proporsi foto */
+    height: auto; /* Menjaga proporsi foto */
+    border-radius: 50%; /* Membuat foto berbentuk bulat */
+    margin-bottom: 10px;
+}
+/* General Text Styling */
+.result-card p {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Bold Class */
+.result-card .bold {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Highlight Class for Important Values */
+.result-card .highlight {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+/* Box Styling for Each Section */
+.result-card .box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+/* Horizontal Line (Separator) */
+.result-card hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Button Style (optional for further navigation) */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}

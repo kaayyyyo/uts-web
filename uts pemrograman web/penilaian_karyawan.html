@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Penilaian Karyawan</title>
+    <link rel="stylesheet" href="penilaian_karyawan.css">
+</head>
+<body>
+    <h2>Form Penilaian Karyawan</h2>
+    <p>Muhammad Rahka Yahsar renufinnian</p>
+    <p>H233600435</p>
+    <form action="proses_penilaian.php." method="post" enctype="multipart/form-data">
+        <label for="nama">Nama Karyawan:</label>
+        <input type="text" id="nama" name="nama" ><br><br>
+        <label for="jabatan">Jabatan:</label>
+        <select id="jabatan" name="jabatan" >
+            <option value="Manager">Manager</option>
+            <option value="Supervisor">Supervisor</option>
+            <option value="Staff">Staff</option>
+        </select><br><br>
+        <label for="lama_bekerja">Lama Bekerja (tahun):</label>
+        <input type="text" id="lama_bekerja" name="lama_bekerja" placeholder="dalam tahun"><br><br>
+        <br>
+        <label for="nilai_kinerja">Nilai Kinerja Bulanan (0-100):</label>
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 1" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 2" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 3" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 4" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 5" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 6" >
+        <br>   
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 7" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 8" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 9" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 10" >
+        <br>   
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 11" >
+        <br>
+        <input type="text" id="nilai_kinerja" name="nilai_kinerja[]" placeholder="Bulan 12" ><br><br>
+        <label for="foto">Foto Karyawan:</label>
+        <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
